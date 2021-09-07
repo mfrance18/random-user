@@ -8,5 +8,6 @@ export const userInfo = (allInfo) => {
                     <li>Phone: ${allInfo.results[0].phone}</li>
                     <li>Cell Phone: ${allInfo.results[0].cell}</li>
                     <li>Email: ${allInfo.results[0].email}</li>
-                </ul>`
+                </ul>
+               `
 }
