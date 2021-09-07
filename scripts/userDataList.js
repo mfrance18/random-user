@@ -8,3 +8,6 @@ export const showData = () => {
        targetContent.innerHTML = userInfo(allInfo)
     })
 }
+
+
+
