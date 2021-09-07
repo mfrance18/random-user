@@ -2,7 +2,7 @@ console.log("You look marvelous!")
 import { getRandomUser } from "./DataManager.js"
 
 getRandomUser()
-console.log(getRandomUser())
+.then(result => console.log(result))
 
 
 
