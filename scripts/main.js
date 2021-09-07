@@ -1,9 +1,10 @@
 console.log("You look marvelous!")
-import { getRandomUser } from "./DataManager.js"
+import { showData } from "./userDataList.js"
 
-getRandomUser()
-console.log(getRandomUser())
+// getRandomUser()
+// .then(result => console.log(result))
 
+showData()
 
 
 
