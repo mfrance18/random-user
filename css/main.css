@@ -1,0 +1,73 @@
+html {
+    background: url(../images/Spa-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    margin: 0;
+
+}
+
+header {
+    background: linear-gradient( 45deg, black, transparent, black);
+    display: flex;
+    justify-content: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aqua;
+    width: 50%;
+    background: linear-gradient( 45deg, black, transparent, black);
+}
+
+#userButton {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: aqua;
+    padding: 15px 60px 15px 60px;
+    margin-top: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    border: none;
+    transition: all 0.2s ease 0s;
+}
+
+#userButton:hover {
+    color: white;
+	box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transform: scale(1.1);;
+}
+
+
+
+.intro {
+    text-align: center;
+    font-size: 40px;
+    color: aqua;
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 50%;
+    width: 40%;
+    padding-top: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.9);
+}
+
+ul {
+    list-style: none;
+    font-size: 25px;
+}
